@@ -1,0 +1,120 @@
+# ========================================
+# Python
+# ========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ========================================
+# Virtual Environments
+# ========================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+Pipfile.lock
+
+# ========================================
+# IDEs and Editors
+# ========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ========================================
+# OS Generated Files
+# ========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ========================================
+# Logs and Databases
+# ========================================
+*.log
+logs/
+*.db
+*.sqlite
+*.sqlite3
+
+# ========================================
+# Testing and Coverage
+# ========================================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ========================================
+# Jupyter Notebook
+# ========================================
+.ipynb_checkpoints
+
+# ========================================
+# Trading Bot Specific
+# ========================================
+
+# NEVER commit files with API keys or credentials
+# The futures.py file in this repo contains expired API keys as reference.
+# If you fork or clone this project, create your own futures.py from the
+# template and add your keys via environment variables or a .env file.
+futures.py
+
+# API keys and secrets
+*.key
+*.secret
+credentials.json
+secrets.json
+config.json
+settings.json
+config.yaml
+config.yml
+
+# Local data and trade history
+data/
+*.csv
+*.xlsx
+*.xls
+
+# Backtest and strategy results
+backtests/
+results/
+strategies/__pycache__/
+
+# Binance specific
+binance_credentials.py
+api_config.py
