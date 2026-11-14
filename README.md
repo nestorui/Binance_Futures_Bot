@@ -1,6 +1,6 @@
 # Binance Futures Trading Bot (ETHBUSD)
 
-**TLDR:** Automated Futures bot made in 2021. Turned a profit until october 2022, ethereum changed from POW to POS and traded volume fell significantly. There was no major Generative Ai easily avilable at the time of creation, This coded was conceived thorugh a lot of StackOverflow and frustration.
+**TLDR:** Automated Futures bot made in 2021. Turned a profit until october 2022, ethereum changed from POW to POS and traded volume fell significantly. There was no major Generative Ai easily avilable at the time of creation, This coded was conceived through a lot of StackOverflow and frustration.
 <br>
 <br>
 Automated trading bot for executing futures orders on Binance, focused on the **ETHBUSD** pair.
